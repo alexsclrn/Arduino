@@ -3,10 +3,10 @@
 #include <LiquidCrystal_I2C.h>
 
 // Definition ecran LCD
-LiquidCrystal_I2C lcd(0x20, 16, 2);
+LiquidCrystal_I2C lcd(0x20, 16, 2); // Addresse I2C, Lettre par ligne, nombre de lignes
 
 // Definition broches
-int brochePot = A0;
+int brochePot = A0; 
 int brocheMoteur = 9;
 int valeurCAN = 0;
 int valeurPWM = 0;
